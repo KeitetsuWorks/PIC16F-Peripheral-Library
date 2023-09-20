@@ -1,0 +1,53 @@
+# Created by https://www.toptal.com/developers/gitignore/api/mplabx,linux
+# Edit at https://www.toptal.com/developers/gitignore?templates=mplabx,linux
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+### MPLabX ###
+#Ignore List for Microchip's MPLAB X IDE
+#It's a form of NetBeans with vendor specific changes
+#Taken from zeha on GIST https://gist.github.com/zeha/5999375
+#Updated by Cristian Cristea (https://github.com/cristiancristea00)
+
+*.d
+*.pre
+*.p1
+*.lst
+*.sym
+*.obj
+*.o
+*.sdb
+*.obj.dmp
+*.mk
+*.map
+*.properties
+*.production
+*.debug
+html/
+nbproject/private/
+nbproject/Package-*.bash
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+funclist
+nbproject/Makefile-*
+disassembly/
+.generated_files/
+
+# End of https://www.toptal.com/developers/gitignore/api/mplabx,linux
